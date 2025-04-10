@@ -1,16 +1,12 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+A simple Flutter application that fetches weather data using Clean Architecture principles. This project demonstrates a modular structure with separated layers (Presentation, Domain, and Data) without a UI, focusing on the core logic of retrieving weather information from an API.
 
-## Getting Started
+## Project Overview
 
-This project is a starting point for a Flutter application.
+This app is built to showcase the implementation of **Clean Architecture** in Flutter. It fetches weather data (e.g., city name and temperature) from the OpenWeatherMap API and prints it to the console. The project is structured into three main layers:
+- **Domain**: Contains business logic, entities, and use cases.
+- **Data**: Handles data sources, models, and repository implementations.
+- **Core**: Stores constants and shared utilities.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+No UI or State Management is included, keeping the focus on the architectural setup.
